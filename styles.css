@@ -1,0 +1,111 @@
+/* Created by Tivotal */
+
+/* Google Fonts(Poppins) */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #000;
+}
+
+a {
+  color: #fff;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  background: url(bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 35px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.logo a {
+  font-size: 40px;
+}
+
+.logo span {
+  color: #4070f4;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 10px 15px;
+}
+
+nav ul li a {
+  transition: all 0.4s ease;
+}
+
+nav ul li a:hover {
+  color: #4070f4;
+}
+
+nav .btn {
+  padding: 9px 25px;
+  background-color: #000;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 6px;
+  transition: all 0.4s ease;
+}
+
+nav .btn:hover {
+  background-color: #4070f4;
+}
+
+.content {
+  margin-top: 10%;
+  max-width: 600px;
+}
+
+.content h2 {
+  font-size: 70px;
+  color: #fff;
+}
+
+.content p {
+  margin-top: 10px;
+  line-height: 25px;
+  color: #707070;
+}
+
+.link {
+  margin-top: 30px;
+}
+
+.hire {
+  padding: 9px 25px;
+  background-color: #fff;
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: all 0.4s ease;
+}
+
+.hire:hover {
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+}
